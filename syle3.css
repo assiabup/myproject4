@@ -1,0 +1,204 @@
+
+html, body {
+    width: 100%; 
+    height: 100%; 
+    margin: 0; 
+    padding: 0; 
+}
+
+/* Container with shaded background */
+.container {
+    display: inline-block;
+    background-color:white;
+    padding: 20px;
+    position: relative;
+    top:-600px;
+    float: right;
+    margin-right: 100px;
+    position:relative;
+    top:-600px;
+    width: 400px;
+}
+.logo  img{
+    background-position: center;
+    background-size: cover;
+    width: 600px;
+    
+    
+}
+.container form input{
+    position: relative;
+    top:-55px;
+    border-radius: 50px;
+    width: 500px;
+    height: 60px;
+}
+.container h1{
+    position: relative;
+    display:flex;
+}
+.eservice{
+    width: 500px;
+    font-size: 25px;
+    padding-left: 70px;
+}
+
+
+
+h1 {
+    margin: 0;
+    line-height: 1.2;
+}
+
+h1 {
+    color: #444;
+    font-size: 2.5em;
+}
+
+h2 {
+    color: #777;
+    font-size: 1.2em;
+}
+
+/* Form container style (Flexbox for centering) */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    width: 420px;
+    
+}
+input[type="checkbox"] {
+    margin-right: 450px;
+    position: relative;
+    top: -18px;
+    background-color: #777;
+    color: gray;
+    height: 100px;
+  }
+
+input,
+button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    font-size: 1.1em;
+    position: relative;
+    top:-40px;
+    width: 500px;
+    height: 60px;
+}
+
+button {
+    background-color: #4e73df;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 20px;
+}
+hr{
+    position: relative;
+    top:-10px;
+}
+
+button:hover {
+    background-color: #184be6;;
+   
+}
+.authentification input{
+    border-radius:50%;
+}
+.container label{
+    position: relative;
+    top:-80px;
+    margin-right: 280px;
+}
+.question li  {
+    position: relative;
+    list-style-type:none;
+    padding-left: -30px;
+    text-align: center;
+    color: #4e73df;
+}
+.question :hover{
+    color:blue;
+}
+#rappel{
+    height: 15px;
+}
+@media screen and (min-width:100px) and (max-width:700px) {
+    h1{
+        color:rebeccapurple;
+    }
+        .container{
+            width: 610px;
+            height: 600px;
+            position:relative;
+            top:-650px;
+            margin-right: 10px;
+            
+
+
+        }
+        .container form input{
+            width: 500px;
+            margin-left: 300px;
+            position: relative;
+            top:-10px;
+        }
+        .eservice{
+            margin-left: 150px;
+            position: relative;
+            top:30px;
+        }
+        .container label{
+            margin-right: 80px;
+            top:-40px;
+        }
+        input,button {
+            margin-right: 90px;
+            position: relative;
+            top:30px
+        }
+        button{
+            margin-left: 300px;
+        }
+        #rappel{
+            margin-right: 550px;
+        }
+        html, body {
+            width: 100%; 
+            height: 100%; 
+            margin: 0; 
+            padding: 0; 
+        }
+        .logo{
+            background-color: azure;
+        }
+        hr{
+            position: relative;
+            top:50px;
+        }
+        .question li {
+            position: relative;
+            top:70px;
+        }
+        #rappel{
+            position: relative;
+            top:-16px;
+        }
+        .logo {
+            filter: brightness(0) invert(1); 
+        }
+
+
+    
+  
+}
+    
+
+
+
+
